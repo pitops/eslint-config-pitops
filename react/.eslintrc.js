@@ -16,7 +16,7 @@ module.exports = {
     ecmaVersion: 2018,
     sourceType: 'module'
   },
-  plugins: ['html', 'react', 'react-hooks', 'jsx-a11y', "prettier", "standard"],
+  plugins: ['html', 'react', 'react-hooks', 'jsx-a11y', 'prettier', 'standard'],
   settings: {
     // react: {
     //   version: '16.8.0-alpha.0'
@@ -28,9 +28,9 @@ module.exports = {
     }
   },
   extends: [
-    "standard",
-    "prettier",
-    "prettier/standard"
+    'standard',
+    'prettier',
+    'prettier/standard',
     'prettier/react'
   ],
   overrides: [
