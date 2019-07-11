@@ -16,7 +16,7 @@ module.exports = {
     ecmaVersion: 2018,
     sourceType: 'module'
   },
-  plugins: ['html', 'react', 'react-hooks', 'jsx-a11y', 'graphql'],
+  plugins: ['html', 'react', 'react-hooks', 'jsx-a11y'],
   settings: {
     // react: {
     //   version: '16.8.0-alpha.0'
@@ -133,14 +133,6 @@ module.exports = {
     ],
     'react-hooks/rules-of-hooks': 'error',
     'react-hooks/exhaustive-deps': 'warn',
-    'react-hooks/rules-of-hooks': 'error',
-    'graphql/template-strings': [
-      'error',
-      {
-        env: 'literal',
-        tagName: 'gql',
-        projectName: 'app'
-      }
-    ]
+    'react-hooks/rules-of-hooks': 'error'
   }
 }
