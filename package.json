@@ -1,6 +1,6 @@
 {
     "name": "eslint-config-pitops",
-    "version": "0.0.6",
+    "version": "0.0.7",
     "description": "ESLint and Prettier Config from Petros Kyriakou",
     "keywords": [
         "javascript",
@@ -11,7 +11,7 @@
         "prettier"
     ],
     "main": "index.js",
-    "repository": "git@github.com:wesbos/eslint-config-wesbos.git",
+    "repository": "git@github.com:pitops/eslint-config-pitops.git",
     "author": "Petros Kyriakou <9pitops@gmail.com>",
     "license": "MIT",
     "peerDependencies": {

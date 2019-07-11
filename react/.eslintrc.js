@@ -16,10 +16,11 @@ module.exports = {
     ecmaVersion: 2018,
     sourceType: 'module'
   },
-  plugins: ['html', 'react', 'react-hooks', 'jsx-a11y', 'prettier', 'standard'],
+  plugins: ['html', 'import', 'react', 'react-hooks', 'jsx-a11y', 'prettier', 'standard'],
   settings: {
     react: {
-      version: '16.8.6'
+      pragma: 'React',
+      version: 'detect'
     },
     'import/resolver': {
       node: {
@@ -29,6 +30,7 @@ module.exports = {
   },
   extends: [
     'standard',
+    "plugin:react/recommended",
     'prettier',
     'prettier/standard',
     'prettier/react'
