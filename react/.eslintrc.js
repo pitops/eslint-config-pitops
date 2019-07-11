@@ -16,7 +16,7 @@ module.exports = {
     ecmaVersion: 2018,
     sourceType: 'module'
   },
-  plugins: ['html', 'import', 'react', 'react-hooks', 'jsx-a11y', 'prettier', 'standard'],
+  plugins: ['html', 'import', 'react', 'react-hooks', 'jsx-a11y'],
   settings: {
     react: {
       pragma: 'React',
@@ -29,11 +29,10 @@ module.exports = {
     }
   },
   extends: [
-    'standard',
-    "plugin:react/recommended",
-    'prettier',
-    'prettier/standard',
-    'prettier/react'
+    'eslint:recommended',
+    'plugin:react/recommended',
+    'plugin:import/errors',
+    'plugin:import/warnings'
   ],
   overrides: [
     {
