@@ -1,6 +1,6 @@
 {
     "name": "eslint-config-pitops",
-    "version": "0.0.9",
+    "version": "0.0.10",
     "description": "ESLint config from Petros Kyriakou",
     "keywords": [
         "javascript",
