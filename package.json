@@ -1,7 +1,7 @@
 {
     "name": "eslint-config-pitops",
-    "version": "0.0.8",
-    "description": "ESLint and Prettier Config from Petros Kyriakou",
+    "version": "0.0.9",
+    "description": "ESLint config from Petros Kyriakou",
     "keywords": [
         "javascript",
         "ecmascript",
