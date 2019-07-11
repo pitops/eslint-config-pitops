@@ -18,9 +18,9 @@ module.exports = {
   },
   plugins: ['html', 'react', 'react-hooks', 'jsx-a11y', 'prettier', 'standard'],
   settings: {
-    // react: {
-    //   version: '16.8.0-alpha.0'
-    // },
+    react: {
+      version: '16.8.6'
+    },
     'import/resolver': {
       node: {
         extensions: ['.js', '.jsx']
