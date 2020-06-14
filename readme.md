@@ -3,7 +3,7 @@
 # NPM or Yarn
 
 ```bash
-npx install-peerdeps --dev eslint-config-pitops
+npx install-peerdeps --dev eslint-config-pitops // add --yarn if using yarn
 ```
 
 ## Monorepo (lerna & yarn)
@@ -11,7 +11,7 @@ npx install-peerdeps --dev eslint-config-pitops
 If you are in a monorepo then the procedure is a bit different.
 
 ```bash
-npx install-peerdeps --dev eslint-config-pitops --extra-args -W
+npx install-peerdeps --dev eslint-config-pitops --extra-args -W // add --yarn if using yarn
 ```
 
 # Usage
